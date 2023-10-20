@@ -1,0 +1,92 @@
+const thumbnails = document.querySelectorAll('.thumbnail');
+const largeImage = document.getElementById('largeImage');
+
+
+// Set the initial enlarged image to the first thumbnail
+largeImage.setAttribute('src', thumbnails[0].getAttribute('src'));
+
+thumbnails.forEach(thumbnail => {
+  thumbnail.addEventListener('mouseover', () => {
+    const thumbnailSrc = thumbnail.getAttribute('src');
+    largeImage.setAttribute('src', thumbnailSrc);
+  });
+});
+
+// Rest of your JavaScript code
+const quantityInput = document.getElementById('quantity');
+const decrementButton = document.querySelector('.quantity-button-decrement');
+const incrementButton = document.querySelector('.quantity-button-increment');
+
+decrementButton.addEventListener('click', () => {
+    if (quantityInput.value > 1) {
+        quantityInput.value--;
+    }
+});
+
+incrementButton.addEventListener('click', () => {
+    quantityInput.value++;
+});
+
+const heartButton = document.querySelector('.heart-button');
+let isSolid = false;
+
+function toggleHeartButton() {
+  if (isSolid) {
+    heartButton.classList.add('scale-down'); // Add class for scale down animation
+    setTimeout(() => {
+      heartButton.classList.remove('solid'); // Remove the 'solid' class
+      heartButton.classList.add('hollow'); // Add the 'hollow' class
+      heartButton.classList.remove('scale-down'); // Remove class for animation
+      isSolid = false; // Set state to hollow
+    }, 300); // Duration of the scale animation
+  } else {
+    heartButton.classList.remove('hollow'); // Remove the 'hollow' class
+    heartButton.classList.add('solid'); // Add the 'solid' class
+    isSolid = true; // Set state to solid
+  }
+}
+
+heartButton.addEventListener('click', toggleHeartButton);
+const colorCircles = document.querySelectorAll('.color-circle');
+const sizeTags = document.querySelectorAll('.size-tag');
+
+// Initialize the selected color and size
+let selectedColor = null;
+let selectedSize = null;
+
+colorCircles.forEach(circle => {
+    circle.addEventListener('click', () => {
+        // Remove the 'selected' class from all color circles
+        colorCircles.forEach(c => c.classList.remove('selected'));
+        
+        // Add the 'selected' class to the clicked color circle
+        circle.classList.add('selected');
+        
+        // Update the selected color
+        selectedColor = circle.getAttribute('data-color'); // You can use 'data-color' attribute to store color information
+    });
+});
+
+sizeTags.forEach(tag => {
+    tag.addEventListener('click', () => {
+        // Remove the 'selected' class from all size tags
+        sizeTags.forEach(t => t.classList.remove('selected'));
+        
+        // Add the 'selected' class to the clicked size tag
+        tag.classList.add('selected');
+        
+        // Update the selected size
+        selectedSize = tag.textContent.trim(); // Get the text content of the tag
+    });
+});
+
+// Your code for handling the selected color and size (e.g., updating the product details) can go here
+
+// Example: Display the selected color and size in the console
+function displaySelections() {
+    console.log(`Selected Color: ${selectedColor}`);
+    console.log(`Selected Size: ${selectedSize}`);
+}
+
+// Call this function whenever you want to display the selected color and size
+displaySelections();

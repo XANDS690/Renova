@@ -1,0 +1,719 @@
+body{
+    
+    background-color:#F6F4F4 ;
+    overflow-x: hidden;
+
+}
+@font-face {
+    font-family: 'Aniyah';
+    src: url('Aniyah.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.inicio{
+
+
+    margin-top: 1%;
+    background-color: #EEBBBB;
+    padding: 25px;
+    border-radius: 50px;
+    height: 100px;
+
+
+}
+.what{
+
+   
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    display: block;
+    left: 90%;
+    top: 80%;
+    z-index: 3;
+   
+
+}
+.x{
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 60%;
+    text-align: center;
+
+}
+
+.whatsapp-link {
+
+    position:fixed;
+    width: 60px;
+    height: 60px;
+    left: 91.2%;
+    top: 82%;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    display: block;
+    
+}
+.fa-whatsapp{
+
+    margin-top: 16px;
+
+}
+/*.zap{
+
+    width: 50px;
+    height: 50px;
+    border: solid 2px green;
+    border-radius: 100px;
+    right: 100%;
+
+    
+
+}*/
+
+#RENOVA{
+
+    font-weight: 0;
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#ind{
+
+    font-size: 35px;
+    color: #862828;
+    margin-top: -2.5%;
+    font-family: 'Aniyah';
+
+}
+#pesquisa{
+    
+    height: 40px;
+    width: 900px;
+    margin: 20px;
+    margin-top: 40px;
+    border: solid 0;
+    border-radius: 100px;
+    position: relative;
+
+}
+.tres{
+
+
+    position: relative;
+    width: 70px;
+    height: 5px;
+    margin: 10px;
+    background-color: black;
+
+}
+
+#corao{
+
+    
+    top: 20%;
+    left: 85%;
+    right: 100px;
+    width:100px;
+    height:40px;
+    position: absolute;
+    
+
+
+}
+.User{
+
+    position: absolute;
+    top: 20%;
+    left: 93%;
+    right: 10%;
+    width:100px;
+    height:40px;
+    
+}
+.corp{
+
+    right: 22%;
+    top: 21%;
+    margin-bottom: 5px;
+    position: absolute;
+    
+
+}
+.cat{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+
+} 
+.cate{
+
+    text-align: center;
+    background-color: white;
+    border-radius: 100px;
+    width: 500px;
+    margin-bottom: 4%; 
+    position: relative;   
+
+    
+
+}
+
+.cate:hover{
+
+    opacity: 0.6;
+
+}
+
+.cabelos{
+
+    
+    background-color: #D7A9A9;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+
+
+}
+.cabelos:hover{
+
+    opacity: 0.5;
+
+}
+
+.container{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: -5%;
+    margin-right: 1%;
+    margin-left: 1%;
+
+}
+.qual{
+
+ 
+    margin: -0,5%;
+    margin-top: -1%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.preco{
+
+ 
+    align-items: center;
+    margin: -1%;
+    margin-top: -2%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.preci{
+
+    color: black;
+    text-align: center;
+    margin-right: 4%;
+    margin-left: 5%;
+
+
+}
+.cont2{
+
+    display: flex;
+    padding: 0;
+    margin-left: 0;
+    
+    
+
+}
+#um{
+
+    margin-right: 40%;
+
+}
+.cont{
+
+    width: 300px;
+    padding: 0;
+    
+
+}
+.lista{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+a{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+
+}
+footer{
+
+    background-color: #F2E2E2;
+    width: 100%;
+    height: 350px;
+    margin-right: -1%;
+    margin-left: 0%;
+    margin-bottom: -1%;
+    padding: 0px;
+
+}
+.copi{
+
+    font-size: 20px;
+    margin: px;
+    padding: 0px;
+    bottom: -95%;
+    position: end;
+
+}
+.direitos{
+
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.minichef{
+
+    
+    background-color: transparent;
+    border: solid black;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+
+    
+    
+    
+
+}
+.perfil{
+
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 23px;
+
+}
+.sub_perfil{
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 100px 0 100px 0;
+    rotate: 45deg;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 23px;
+
+}
+.perfil, .sub_perfil{
+
+    border: solid 2px;
+
+}
+
+
+
+
+
+
+
+.heart {
+
+    position: relative;
+    height: 50px;
+    width: 30px;
+    background: #f3dbdb;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(45deg);
+
+}
+
+.heart::before{
+
+    content: "";
+    position: absolute;
+    background: #f3dbdb;
+    height: 50px;
+    width: 30px;
+    transform: rotate(-90deg);
+    border-radius: 50px 50px 0 0;
+    left: -12px;
+    top: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bolsa{
+      
+      
+    top: -5%;
+    left: 15%;
+    margin: 10px;
+    position: relative;
+    border: solid 2px black;
+    border-radius: 10px 10px 0 0;
+    width: 90px;
+    height: 70px;
+    
+
+}
+#chefe{
+
+    
+    position: absolute;
+    top: 19%;
+    left: 84%;
+    width: 200px;
+    height: 200px;
+
+}
+.alca{
+
+
+    
+    position: relative;
+    border: solid 2px black;
+    border-radius: 50px 50px 0 0;
+    width: 50px;
+    height: 38px;
+    left: 29%;
+}
+.coro{
+
+    position: absolute;
+
+}
+.comando{
+
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: solid;
+    
+
+}
+.comand{
+
+    
+   
+    border-radius: 100px;
+    position: absolute;
+    top: 10%;
+    left: 41%;
+
+}
+.heart2 {
+    
+    margin: center;
+    position: relative;
+    height: 50px;
+    width: 30px;
+    background: #f3dbdb;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(45deg);
+    border: solid 2px;
+    display: block;
+    
+    
+    
+   
+
+
+}
+
+.heart2::before{
+
+    
+    border: solid 2px;
+    border-right-style: initial;
+    
+    content: "";
+    position: absolute;
+    background: #f3dbdb;
+    height: 51px;
+    width: 30px;
+    transform: rotate(-90deg);
+    border-radius: 50px 50px 0 0;
+    left: -12px;
+    top: 12px;
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+.inicio {width: 70%; margin:0 10%}      
+#RENOVA {font-size: 30px;}
+#ind {font-size: 10px;}
+#pesquisa {width: 130px; left: -15%;}
+#corp {top: 21%; width: 50px; height: 50px; left: 55%;}
+#corao, #USER {width: 10px; height: 10px; left: 85%; top: 20%;}
+.tres {width: 45px; height: 5px; }
+#tbot {margin-top: -10%;}
+.cate {font-size: 10px; width: 110px; margin: 5px;padding: 5px;}
+.cabelos {width: 70px; height: 70px;}
+.container {justify-content: space-between; }
+.qual {font-size: 10px; margin: -1%;}
+.preco {margin: 0; margin-top: -5%; margin-bottom: 5%;}
+.preci {font-size: 14px;}
+.nom {margin: 3%; font-size: 13px;}
+.cont2 {font-size: 10px;}
+.lista {font-size: 15px;}
+.copi {font-size: 10px; margin-top: 30%;}
+.minichef {width: 50px; height: 50px;}
+.perfil {width: 30px; height: 30px; margin-top: 2px; margin-left: 8px;}
+.sub_perfil {width: 28px; height: 28px; margin-top: 25px; margin-left: 9px;}
+.whatsapp-link {left: 85%;}
+.bolsa {width: 50px; height: 40px; top: 13%;}
+.alca {width: 30px; height: 20px; left: 20%;}
+.comand {left: 40%; top: 0%;}
+.heart2 {height: 35px; width: 20px;}
+.heart2::before {height: 35px; width: 20px; left: -9px; top: 8px;}
+.chefe {left: 70%; top: 18.5%;}
+.lan { font-size: 13px; font-family: "arial";}
+
+
+
+}
+
+@media (min-width:1366px){
+    #corao, #USER {width: 10px; height: 10px; top: 23%;}    
+    .chefe{top: 21.5%;}
+    .heart{top: 21.5%;}
+    .heart::before{top: 21.5%;}
+    #corp{top: 26%; right: 18%;}
+
+}
+
+
+
+
+
+.sliding-menu {
+    position: fixed;
+    top: 0;
+    left: -50%; /* Initially hidden off the screen */
+    width: 25%; /* Adjust the width as needed */
+    height: 100%;
+    background-color: #EEBBBB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    overflow-y: auto;
+    transition: left 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.sliding-menu.open {
+    left: 0; /* Slide the menu into view */
+}
+
+
+
+
+/* Other styles... */
+
+/* Your existing styles here */
+.menu-button  {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    text-align: left;
+    background-color: #EEBBBB; /* Change the background color of the buttons */
+    color: black; /* Change the text color of the buttons */
+    border: none;
+    border-bottom: 0px solid #ccc; /* Add a separator between buttons */
+    cursor: pointer;
+    transform: translateY(-50px); /* Initial position: above the viewport */
+    transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0; /* Initially hidden and transparent */
+    z-index: 1000;
+    font-family: 'Cinzel', sans-serif;
+}
+
+.sliding-menu.open {
+    left: 0; /* Slide the menu into view */
+    opacity: 1; /* Make the menu visible */
+}
+
+.menu-button {
+    font-family: 'Cinzel', sans-serif;
+    /* ... Other styles ... */
+    transform: translateY(-10px); /* Initial position: slightly above the final position */
+    opacity: 0; /* Initially transparent */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    margin-top: 15px;
+    margin-left: 3%;
+    text-emphasis-style: bold;
+}
+.menu-button.c {
+    text-align: center;
+}
+
+.sliding-menu.open .menu-button {
+    transform: translateY(0); /* Move the buttons to their final position */
+}
+
+  #tbot{
+
+    align-items: center;
+    position: relative;
+    margin-top: -4%;
+    margin-bottom: 4%;
+    width: 70px;
+  }
+  #RENOVA2{
+    text-align: center;
+    font-weight: 0;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+    width: 50%;
+    margin-bottom: 0px;
+    margin-top: 55px;
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: show; /* Hide overflowed text */
+    margin-left: 15%;
+  }
+#ind2{
+    text-align: center;
+    font-size: 30px;
+    color: #862828;
+    margin-top: -7%;
+    font-family: 'Aniyah';
+}
+#hr{
+    color: rgb(0, 0, 0);
+    height: 5px;
+}
+.menu-button + hr {
+    border-color: black;
+    margin-bottom: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.menu-button {
+    /* ... */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.menu-button.show-button {
+    transform: translateY(0);
+    opacity: 1;
+}

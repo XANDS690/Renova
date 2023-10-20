@@ -1,0 +1,270 @@
+body{
+    
+    background-color:#F6F4F4 ;
+    overflow-x: hidden;
+
+}
+
+/*cadastyle é um nome mt foda pra esse arquivo pprt */
+@font-face {
+    font-family: 'Aniyah';
+    src: url('Aniyah.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.inicio{
+
+
+    margin-top: 1%;
+    background-color: #EEBBBB;
+    padding: 25px;
+    border-radius: 50px;
+    height: 100px;
+
+
+}
+#RENOVA{
+
+    font-weight: 0;
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#ind{
+
+    font-size: 35px;
+    color: #862828;
+    margin-top: -2.5%;
+    font-family: 'Aniyah';
+
+}
+#USER{
+    
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    right: 100px;
+    width:100px;
+    height:40px;
+    position: absolute;
+}
+.minichef{
+
+    
+    background-color: transparent;
+    border: solid black;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    
+    
+    
+
+}
+.perfil{
+
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 23px;
+
+}
+.sub_perfil{
+
+    position: absolute;
+    border: solid 1px black;
+    border-radius: 100px 0 100px 0;
+    rotate: 45deg;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 23px;
+
+}
+.perfil, .sub_perfil{
+
+    border: solid 2px;
+
+}
+.container{
+
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.nomecont,.senhacont{
+
+    margin: 20px;
+    position: relative;
+
+}
+.nome, .senha{
+
+    width: 400px;
+    height: 30px;
+    border: solid 2.5px;
+    border-radius: 100px;
+
+
+}
+.Name, .Pass{
+
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 1;
+    top: 70%;
+
+}
+.cont{
+
+    position: absolute;
+    left: 47%;
+    top: 87%;
+    font-family: sans-serif;
+    font-weight: 1;
+    color: #aaa;
+
+}
+.um,.dois{
+
+    border: solid 1px #aaa;
+
+}
+.um{
+
+    width: 130px;
+    position: relative;
+    left: 6%;
+
+}
+.dois{
+
+    width: 130px;
+    position: relative;
+    left: 57%;
+    
+
+}
+.SegContainer{
+
+    border: solid 1px ;
+    position: relative;
+    right: 47%;
+    top: 71%;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    
+
+}
+.NomeGoogle{
+
+    position: relative;
+    bottom: 157%;
+    font-family: sans-serif;
+    font-weight: 1;
+
+}
+.ContContinue{
+
+    position: relative;
+    text-align: center;
+    background-color: black;
+    margin-bottom: 20px;
+    width: 420px;
+    height: 40px;
+    left: 3.5%;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 5;
+
+}
+.continue{
+
+    position: relative;
+    color: white;
+    top: 21%;
+    font-family: Arial;
+    font-size: 20px;
+    
+    
+
+}
+.ContContinue:active{
+
+    background-color: rgb(77, 76, 76);
+
+}
+.cadas{
+
+    position: relative;
+    text-align: center;
+    right: 50%;
+    bottom: 30%;
+    font-family: Arial;
+
+}
+.Google{
+
+    position: relative; 
+    right: 40%;
+    top: 5%;
+
+}
+.TextEntre{
+   
+    position: relative;
+    bottom: 155%;
+    font-family: Arial;
+
+}
+a{
+
+    text-decoration: none;
+
+}
+
+@media (max-width: 768px){
+
+    .SegContainer{left: 10%;}
+    .inicio {width: 70%; margin:0 10%}      
+    #RENOVA {font-size: 30px;}
+    #ind {font-size: 10px;}
+
+}
+@media (max-width: 412px){
+
+    .nome,.senha{width: 300px;}
+    .nomecont,.senhacont{left: 1%;}
+    .ContContinue{left: 8%; width: 300px;}
+    .SegContainer{width: 300px; left: -46%;}
+    .Google{right: 44%;}
+
+}
+@media (max-width: 360px){
+
+    .container{top: 60%; left: 50%;}
+    .SegContainer{top: 0%;left: -45%;}
+    .inicio{left: -2%;position: absolute;}
+
+}
+@media (width: 1366px){
+
+        .SegContainer{left: 35%; top: 78%;}
+        .dois{left: 63%;width: 140px;}
+        .container{top: 60%;}
+        #USER{top: 27%;}
+
+}

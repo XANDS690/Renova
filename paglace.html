@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <title>Página Lace
+    </title>
+</head>
+<body>
+    <div class="gallery-container">
+        <!-- Thumbnails and Large Image Container -->
+        <div class="gallery-container">
+            <ul class="thumbnail-list">
+                <li>
+                    <img src="img/lace1.png" alt="lace1" class="thumbnail" id="lace1">
+                </li>
+                <li>
+                    <img src="img/lace2.png" alt="lace2" class="thumbnail" id="lace2">
+                </li>
+                <li>
+                    <img src="img/lace3.png" alt="lace3" class="thumbnail" id="lace3">
+                </li>
+            </ul>
+            <div class="item-details">
+            </div>
+            <div class="large-image-container">
+                <img src="" alt="Large Image" class="large-image" id="largeImage">
+            </div>
+        </div>
+        <div class="item-container">
+            <div class="item-details">
+                <h2 class="nome">Lace</h2>
+                <h3 class="preco">R$000,00 </h3> <h3 class="desconto"> -0% </h3> 
+                <hr class="dotted-line">
+                <p class="short-notice">Envio Nacional</p>
+                <h3 class="short-notice2">Este é um produto de envio Nacional. <br> Diferentes marketplaces terão diferentes taxas de frete, <br> prazo de entrega e atividade.</h3>
+                <hr class="dotted-line">
+                <div class="quantity-selector">
+                    <label for="quantity">Quantidade:</label>
+                    <button class="quantity-button-decrement" type="button">-</button>
+                    <input type="number" id="quantity" name="quantity" value="1" min="1" class="quantity-input">
+                    <button class="quantity-button-increment" type="button">+</button>
+                </div>
+                <div class="color-selector">
+                    <div class="color-circle" data-color="red"></div>
+                    <div class="color-circle" data-color="blue"></div>
+                    <div class="color-circle" data-color="green"></div>
+                </div>
+                
+                <div class="size-selector">
+                    <div class="size-tag">Pequena</div>
+                    <div class="size-tag">Média</div>
+                    <div class="size-tag">Grande</div>
+                </div>
+                <div class="heart-button-container">
+                <button class="add-to-cart-button">Add to Cart</button>
+                <button class="heart-button">♡</button>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <script src="jakefile"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body{
+    
+    background-color:#F6F4F4 ;
+    overflow-x: hidden;
+
+}
+@font-face {
+    font-family: 'Aniyah';
+    src: url('Aniyah.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.inicio{
+
+
+    margin-top: 1%;
+    background-color: #EEBBBB;
+    padding: 25px;
+    border-radius: 50px;
+    height: 50px;
+    width: 40%;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+
+}
+.renova, .indira{
+
+    position: relative;
+    margin: 0;
+}
+.renova{
+
+    font-family: 'Cinzel';
+    font-weight: 100;
+    font-size: 50px;
+    top: -30%;
+
+}
+.indira{
+
+    font-family: 'Aniyah';
+    bottom: 30%;
+    color: #862828;
+    top: -120%;
+
+}
+.lin1{
+
+    border: solid 1px #aaa;
+    position: absolute;
+    width: 100%;
+    top: 20%;
+
+}
+.Retan{
+
+    border: solid 1px;
+    position: absolute;
+    width: 1500px;
+    height: 250px;
+    top: 21%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.cont{
+
+    position: relative;
+    background-color: #EEBBBB;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+.lin2{
+
+    border: solid 1px #aaa;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+
+}
+.Retan2{
+
+    border: solid 1px;
+    position: absolute;
+    width: 1500px;
+    height: 250px;
+    top: 51%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.cont2{
+
+    position: relative;
+    background-color: #EEBBBB;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+
+}

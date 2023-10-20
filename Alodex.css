@@ -1,0 +1,87 @@
+body {
+    background-color: #F6F4F4;
+    overflow-x: hidden;
+    margin: 110px;
+    margin-left: 110px;
+    padding: 0;
+}
+
+.cont {
+    position: relative; /* Change to relative positioning */
+    max-width: 100000px; /* Limit maximum width */
+    margin: 10px auto; /* Center horizontally */
+    text-align: justify;
+    z-index: 4;
+    padding: 20px; /* Add padding for better readability */
+    margin-top: 30px; /* Add top margin to create space for the h1 */
+    margin-left: 20px; /* Add margin to the left side */
+    margin-right: 20px; /* Add margin to the right side */
+}
+
+.alo {
+    margin-bottom: -66px;
+    font-family: "Cinzel";
+    font-size: 40px;
+    font-weight: 1;
+   position: relative;
+    text-align: center; /* Center align the text */
+    padding: 0; /* Remove padding */
+    z-index: 5;
+}
+.container{
+
+    z-index: 5;
+
+}
+
+.p {
+    font-size: 18px; /* Default font size */
+    margin: 0;
+}
+
+.ElementOne,
+.ElementTop {
+    width: 100px; /* Adjust width for smaller screens */
+    height: 100px; /* Adjust height for smaller screens */
+    position: absolute;
+}
+
+.ElementOne {
+    left: -5%;
+    top: -10%;
+    z-index: -5;
+}
+
+.ElementTop {
+    right: -5%;
+    bottom: -40px;
+    z-index: -5;
+
+}
+
+.List {
+    font-size: 16px; /* Adjust font size for better readability */
+    color: black;
+    text-decoration: none; /* Remove underlines from links */
+    list-style-type: none; /* Remove list bullets */
+    padding-left: 0; /* Remove default padding */
+}
+
+@media screen and (max-width: 768px) {
+    .alo {
+        font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+    .container {
+        margin-top: 20px; /* Reduce top margin for smaller screens */
+    }
+
+  
+}
+
+@media screen and (max-width: 412px){
+
+    .ElementOne{top: 1%; left: -10%; width: 50px; height: 50px;}
+    .ElementTop{width: 70px; height: 70px;}
+    .cont{width: 290px; margin-left: 0; left: -35%;}
+}

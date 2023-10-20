@@ -1,0 +1,294 @@
+body {
+    font-family: 'open-sans-extrabold', sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+    background-color: #ffe4f4;
+}
+
+@font-face {
+    font-family: 'open-sans-extrabold';
+    src: url('open-sans-extrabold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+}
+
+.large-image-container {
+    flex: 2; /* Grow to take available space */
+    margin-top: 32px;
+    margin-left: -200px;
+}
+
+.item-container {
+    flex: 1; /* Grow to take available space */
+    margin-top: 50px;
+    margin-left: 20px; /* Adjust as needed for spacing between large image and details */
+}
+
+.item-details {
+    font-family: 'open-sans-extrabold', sans-serif;
+    flex-grow: 1;
+}
+
+.add-to-cart-button {
+    font-family: 'open-sans-extrabold', sans-serif;
+    background-color: #862828;
+    border: none;
+    color: white;
+    padding: 16px 22px;
+    border-radius: 32px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.quantity-button-decrement {
+    font-size: 24px;
+    padding: 16px 26px;
+    border: none;
+    background-color: #EEBBBB;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.quantity-button-increment {
+    font-size: 24px;
+    padding: 16px 24px;
+    border: none;
+    background-color: #EEBBBB;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.quantity-input {
+    font-size: 24px;
+    padding: 16px 32px;
+    border: none;
+    background-color: #ffe4f4;
+    text-align: center;
+    width: 42px;
+    margin-top: 50px;
+}
+
+.thumbnail {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.large-image {
+    margin-top: -15px;
+    margin-right: -20px; /* Adjust the margin-right to control spacing */
+    width: 700px; /* Set the desired width */
+    height: 500px; /* Set the desired height */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-height: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.quantity-selector label {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.short-notice {
+    font-family: 'open-sans-extrabold', sans-serif;
+    background-color: #EEBBBB;
+    padding: 8px;
+    border-radius: 16px;
+    color: black;
+    position: relative;
+    margin-top: 120px;
+}
+
+.short-notice2 {
+    font-family: 'open-sans-extrabold', sans-serif;
+    background-color: #EEBBBB;
+    padding: 8px;
+    border-radius: 16px;
+    color: black;
+    position: relative;
+}
+
+.preco {
+    font-family: 'open-sans-extrabold', sans-serif;
+    background-color: #EEBBBB;
+    padding: 8px;
+    border-radius: 16px;
+    color: #862828;
+}
+
+.desconto {
+    font-family: 'open-sans-extrabold', sans-serif;
+    background-color: #862828;
+    color: #ffe4f4;
+    position: relative;
+    width: 45px;
+    z-index: 3;
+    top: -80px;
+    right: -135px;
+}
+
+.dotted-line {
+    border: none;
+    height: 1px;
+    background-color: transparent;
+    border-top: 2px dotted #EEBBBB;
+    margin-top: 1px;
+    width: 100%;
+}
+
+.heart-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.heart-button {
+    background-color: #EEBBBB;
+    border: none;
+    font-size: 32px;
+    padding: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.heart-button::before {
+    content: '♡';
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.3s, transform 0.3s;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.heart-button.solid::before {
+    content: '♥';
+    opacity: 1;
+    transform: scale(1.2);
+    z-index: 1;
+    font-size: 3rem;
+    margin-top: 7px;
+}
+
+@keyframes scale-down {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.scale-down {
+    animation: scale-down 0.3s ease-in-out forwards;
+}
+/* Color and Size Selectors */
+/* Color Selector */
+.color-selector {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.color-selector .color-circle {
+    width: 42px; /* Increase the width to make the circles larger */
+    height: 42px; /* Increase the height to make the circles larger */
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #000;
+}
+
+
+.color-selector .color-circle[data-color="red"] {
+    background-color: red;
+}
+
+.color-selector .color-circle[data-color="blue"] {
+    background-color: blue;
+}
+
+.color-selector .color-circle[data-color="green"] {
+    background-color: green;
+}
+
+.color-selector .color-circle.selected {
+    border: 2px solid #fff; /* Add a border to indicate selection */
+}
+
+/* Size Selector */
+.size-selector {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.size-selector .size-tag {
+    background-color: #862828;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+}
+
+.size-selector .size-tag:hover {
+    background-color: #fff; /* Change background color on hover */
+    color: #862828; /* Change text color on hover */
+}
+
+.size-selector .size-tag.selected {
+    background-color: #fff; /* Change the background color when selected */
+    color: #862828;
+}
+
+/* Apply a similar style for the color selector when selected */
+.color-selector .color-circle.selected {
+    animation: pulsate 0.5s ease-in-out; /* Apply the pulsating animation */
+    transform: scale(1.2); /* Grow in size when selected */
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.7;
+    }
+}

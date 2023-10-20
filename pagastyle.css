@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, p, label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+@font-face {
+    font-family: 'Aniyah';
+    src: url('Aniyah.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#RENOVA{
+
+    font-weight: 0;
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+    width: 50%;
+    margin-bottom: 5px;
+    margin-top: -140px;
+    margin-left:-500px;
+}
+#indiranovaes{
+
+    font-size: 35px;
+    color: #862828;
+    margin-top: -2.5%;
+    font-family: 'Aniyah';
+    margin-left:-500px;   
+}
+/* Style the main section */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the payment section */
+.payment-section {
+    background-color: #ffe4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 250px;
+}
+
+.payment-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the payment grid */
+.payment-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/* Style the input fields */
+.input-field {
+    margin-bottom: 10px;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.inicio{
+
+
+    margin-top: 1%;
+    background-color: #EEBBBB;
+    padding: 25px;
+    border-radius: 50px;
+    height: 100px;
+    width: 1025px;
+    margin-left: 80px;
+
+}
+.voltar{
+    font-size: 80px;
+    margin-top: -120px;
+    margin-left: 15px;
+}
+.nome{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    background-color: #ffe4f4;
+    margin-left: 15px;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+}
+.email{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    background-color: #ffe4f4;
+    margin-left: 800px;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+}
